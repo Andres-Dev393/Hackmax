@@ -6,12 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 
 public class Registro extends AppCompatActivity {
 
-    Button btGuardar, btnRegresar;
+    Button btGuardar;
     Spinner dropdown;
+    ImageButton ibtRegresar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +21,8 @@ public class Registro extends AppCompatActivity {
         setContentView(R.layout.activity_registro);
 
         btGuardar = (Button) findViewById(R.id.btIngresar);
-        btnRegresar = (Button) findViewById(R.id.btRegresar);
         dropdown = (Spinner)findViewById(R.id.cmbSexo);
+        ibtRegresar = (ImageButton) findViewById(R.id.ibtRegresar);
 
         String[] items = new String[]{"Masculino", "femenino", "Otro", "Prefiero no decirlo"};
 
@@ -38,7 +40,7 @@ public class Registro extends AppCompatActivity {
             }
         });
 
-        btnRegresar.setOnClickListener(new View.OnClickListener() {
+        ibtRegresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Registro.this, Login.class);
