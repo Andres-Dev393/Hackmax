@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MADEEE</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Ubicación</string>
+    <string name="title_notifications">Promociones</string>
+    <string name="tIniSesion">Iniciar Sesión</string>
+    <string name="tRegistrar">Registrarse</string>
+    <string name="tSalir">Salir</string>
+    <string name="tPedirNombre">Escriba su nombre</string>
+    <string name="tPedirApellido">Escriba su apellido</string>
+    <string name="tPedirCorreo">Escriba su correo</string>
+    <string name="tPedirEdad">Escriba su edad</string>
+    <string name="tPedirSexo">Sexo: </string>
+    <string name="tPedirPassword">Escriba su contraseña</string>
+    <string name="tGuardar">Guardar</string>
+    <string name="tIngresar">Ingresar</string>
+    <string name="tRegresar">Regresar</string>
+</resources>
